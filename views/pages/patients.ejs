@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <% include ../partials/header.ejs %>
+  <style>
+#customers {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+	text-center;
+}
+
+#customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+	text-center;
+}
+
+
+#customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+	text-align: center;
+}
+</style>
+</head>
+
+<body>
+
+  <div class="jumbotron text-center">
+  <div class="container">
+    <a href="/" class="lang-logo">
+      <img src="/pulse.png">
+    </a>
+    <h1>Heart Grid</h1>
+  <table id="customers">
+  <tr>
+    <th>Last Name</th>
+    <th>First Name</th>
+    <th>History</th>
+  </tr>
+  <tr>
+    <td>Trump</td>
+    <td>Donald</td>
+    <td><a href="trump">View</a></td>
+  </tr>
+  <tr>
+    <td>Clinton</td>
+    <td>Hillary</td>
+    <td><a href="">View</a></td>
+  </tr>
+  <tr>
+    <td>Obama</td>
+    <td>Barack</td>
+    <td><a href="">View</a></td>
+  </tr>
+  <tr>
+    <td>Trudeau</td>
+    <td>Justin</td>
+    <td><a href="">View</a></td>
+  </tr>
+ 
+
+</table>
+
+  </div>
+</div>
+  
+ 
+  
+  
+</body>
+</html>
